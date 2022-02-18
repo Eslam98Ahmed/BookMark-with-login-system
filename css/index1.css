@@ -1,0 +1,25 @@
+.ground
+{
+    background-color: #EEE;
+}
+.head
+{
+    width: 100%;
+    height: 23vh;
+    background-image: url('../images/1.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+.layout
+{
+    width: 100%;
+    height: 23vh;
+    background-color: rgba(0, 0, 0, 0.445);
+}
+.te
+{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    font-size: 45px;
+}

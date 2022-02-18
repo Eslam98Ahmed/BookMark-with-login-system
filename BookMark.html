@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>BookMark</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index1.css">
+</head>
+<body>
+<header class="head">
+        <div class="layout d-flex justify-content-center align-items-center">
+            <h1 class="te">B O O K M A R K E R</h1>
+        </div>
+
+</header>
+
+<section>
+    <div class="container ">
+        <div class="row pt-5">
+            <div class="col-md-12 text-center pb-4 ground">
+                <h3 class=" text-muted pt-5 pb-3">Bookmark Your Favorite Sites </h3>
+            <label for="siteName" class=" text-muted py-3"> Site Name</label>
+            <input type="text" class="form-control w-75 mx-auto" id="siteName" placeholder="BookMark Name">
+            <label for="siteUrl" class=" text-muted py-3"> Site URL</label>
+            <input type="text" class="form-control w-75 mx-auto" id="siteUrl" placeholder="Website URL">
+
+            <button class=" btn btn-primary my-4" id="submit" onclick=" addSites()">Submit</button>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="row pt-3 flex-column " id="roow">
+        
+        </div>
+    </div>
+</section>
+
+<footer>
+<div class="container">
+    <div class="row pt-5 pb-3">
+        <hr class=" text-muted"> 
+        <p class=" text-muted">© 2019 Bookmarker Inc.</p>
+    </div>
+</div>
+</footer>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/index1.js"></script>
+</body>
+</html>
